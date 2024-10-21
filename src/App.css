@@ -12,17 +12,23 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+header {
+  width: 94%;
+  height: 180px;
+  background-color: #555;
+  color: #fff;
+  margin-left: 3%;
 }
+.header-app h1, h2 {
+  padding-top: 0px;
+}
+.Link {
+  color: #fff;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+
 
 .App-link {
   color: #61dafb;
@@ -36,3 +42,5 @@
     transform: rotate(360deg);
   }
 }
+
+
